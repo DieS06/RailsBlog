@@ -1,8 +1,7 @@
 import ReactOnRails from 'react-on-rails/client';
-
-import HelloWorld from '../bundles/HelloWorld/components/HelloWorld';
+import PostList from '../bundles/Post/PostList';
 
 // This is how react_on_rails can see the HelloWorld in the browser.
 ReactOnRails.register({
-  HelloWorld,
+  PostList,
 });
